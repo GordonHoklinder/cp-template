@@ -5,9 +5,12 @@ using namespace std;
 typedef vector<int> vi;
 typedef vector<vector<int>> vvi;
 typedef pair<int, int> pii;
+typedef pair<int, pii> ppi;
 typedef vector<pii> vpi;
+typedef vector<ppi> vppi;
 typedef queue<int> qi;
 typedef queue<pii> qpi;
+typedef queue<ppi> qppi;
 #define f(i, a, b) for(int i = (a); i < (b); i++)
 #define bf(i, a, b) for(int i = (b) - 1; i >= (a); i--)
 #define all(x) x.begin(), x.end()
@@ -28,9 +31,9 @@ typedef queue<pii> qpi;
 signed main()
 {
 	ios_base::sync_with_stdio(0);
-	int cou;
+	cin.tie(0);
+	int cou = 1;
 	//cin >> cou;
-	cou = 1;
 	f(coui, 0, cou)
 	{
 
